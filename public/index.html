@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto</title>
+  <link rel="stylesheet" href="tailwind.css">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="like" class="bg-gray-300">
+    <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6 m-16">
+        <div class="flex items-center flex-shrink-0 text-black mr-6 ">
+          <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+          
+        </div>
+        <div class="block lg:hidden">
+          <button id='boton' class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-black hover:border-black">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+        </div>
+        <div id='menu' class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-sm lg:flex-grow">
+            <a href="#responsive-header" class=" block mt-4 lg:inline-block lg:mt-0 text-xl hover:text-blue-500 text-black mr-4">
+              Home
+            </a>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-xl hover:text-blue-500 text-black mr-4">
+              Blog
+            </a>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-xl hover:text-blue-500 text-black mr-4">
+                Projects
+              </a>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-xl hover:text-blue-500 text-black">
+              About
+            </a>
+            
+            <button class="switch hover:bg-gray-500 ml-5" id="switch">
+              <span><i class="fas fa-adjust"></i></span>
+            </button>
+          </div>
+          
+        </div>
+      </nav>
+   
+  <div class="container bg-contenedor ">
+    <div class="grid grid-cols-3 gap-6" style="margin-top: 80px;">
+      <div class=" sm:col-span-1 md:col-span-1 lg:col-span-2">
+        <p class="text-letas text-black m-16"> <font size="10" ><b> Hi, I’m Jeff.
+          I’m an experienced game developer with deep interest in modern web development.</b> </font> 
+        </p>
+
+      </div>
+      <div style="width: 250px; height: 250px; border-radius: 100%; background-color: #81E6D9;">
+        <img style="width: 90%; height: 90%; border-radius: 100%;" src="images/the-avatar.png" alt="">
+
+      </div>
+    </div>
+    <div >
+        <h2 class=" text-xl font-semibold mt-64 font-normal  tracking-widestest   text-green-600 ">Blog</h2>
+        <div class="flex flex-col divide-y divide-light-blue-400  bg-gray-900">
+            <div class="bg-orange-500 p-4 m-2 hover:bg-blue-400">
+              <h3 class="text-xl font-semibold  text-green-200 ">2020 into 2021</h3>
+              <h4 class="font-medium text-tertiary text-white">My personal year in review </h4>
+            </div> 
+            <div class="bg-orange-500 p-4 m-2 hover:bg-blue-400">
+              <h3 class="text-xl font-semibold  text-green-200 ">How to Dark Mode in React and Tailwind CSS</h3>
+              <h4 class="font-medium text-tertiary text-white">Add dark mode using CSS variables and Context API</h4>
+            </div> 
+            <div class="bg-orange-500 p-4 m-2 hover:bg-blue-400">
+              <h3 class="text-xl font-semibold  text-green-200 ">Welcome to jeffjadulco.com!</h3>
+              <h4 class="font-medium text-tertiary text-white">Introduction and why I created this site</h4>
+            </div> <br> <br>
+    </div>
+    <div class="m-16">
+        
+            
+        <h1 class="font-black text-green-600 text-2xl">Proyectos</h1>
+        <p  class="font-black text-black ">Colección de proyectos de desarrollo web usando Tailwind</p>
+        <br>
+        <div class="flex flex-col   md:flex-row">
+            <div class="  bg-gray-900 ">
+                <h1 class="font-black text-white hover:text-green-200 m-5">Proyecto Página Web 1</h1>
+                <p class="text-gray-200 m-5">Esto es un apartado de ejemplo, en esta página web se está aplicando TailwindCSS</p>
+            </div>
+            <br>
+            <div class=" bg-gray-900">
+                <h1 class="font-black text-white hover:text-green-200 m-5">Peoyecto Video Juego 1</h1>
+                <p class="text-gray-200 m-5">Esto es un apartado de ejemplo, en esta página web se está aplicando TailwindCSS</p>
+            </div>
+        </div>    
+        <br>
+        <div class=" flex flex-col md:flex-row">
+            <div class=" bg-gray-900">
+                <h1 class="font-black text-white hover:text-green-200 m-5 ">Proyecto Página Web 2</h1>
+                <p class="text-gray-200 m-5">Esto es un apartado de ejemplo, en esta página web se está aplicando TailwindCSS</p>
+            </div>
+            <br>
+            <div class="bg-gray-900">
+                <h1 class="font-black text-white hover:text-green-200 m-5">Peoyecto Video Juego 2</h1>
+                <p class="text-gray-200 m-5">Esto es un apartado de ejemplo, en esta página web se está aplicando TailwindCSS</p>
+            </div>
+        </div>  
+        <br>
+        <h1 class="font-black text-green-600 text-2xl">Habilidades de desarrollo de Juego</h1>
+        <br>
+        
+        <p class="font-black text-black">Habilidades Adquiridas en la Industria del video juego</p>
+        <br>
+        <div class="flex flex-col justify-around  md:flex-row bg-gray-900">
+            <div class="m-5">
+                <h1 class="font-black text-white">Texto de Ejemplo 1</h1>
+
+                <p class="text-gray-200">Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo
+                    Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo
+                </p>
+            </div>
+            <br>
+            <div class="m-5">
+                <h1 class="font-black text-white">Texto de Ejemplo 2</h1>
+
+                <p class="text-gray-200">Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo
+                    Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo
+                </p>
+            </div>
+        </div> 
+        <br>
+        <h1 class="font-black text-green-600 text-2xl">Habilidades de desarrollo Web</h1>
+        <br>
+        <p class="font-black text-black ">Habilidades Adquieridas en el desarrollo Web</p>
+        <br>
+        <div class="flex flex-col justify-around  md:flex-row  bg-gray-900">
+            <div class="m-5">
+                <h1 class="font-black text-white">Texto de Ejemplo 3</h1>
+
+                <p class="text-gray-200">Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo
+                    Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo
+                </p>
+            </div>
+            <br>
+            <div class="m-5">
+                <h1 class="font-black text-white">Texto de Ejemplo 4</h1>
+
+                <p class="text-gray-200">Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo
+                    Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo Esto es un ejemplo
+                </p>
+            </div>
+        </div>
+    </div>  
+    <footer class='w-full text-center border-t border-grey p-4 pin-b text-white  bg-gray-900'>
+        <h1 class="font-rale text-xl"> Get in  touch </h1>
+        
+                <h3 >Feel free to email me about anything. Want some advice? Give some feedback? </h3>
+                <h3>You can also reach me around the web: GitHub, Twitter, Instagram</h3>
+
+                <button type="button" class="btn btn-primary btn-lg font-rale text-xl " style=" background: linear-gradient(90deg, rgb(20%, 40%, 60%), rgb(60%, 20%, 40%))">Say Hello</button>
+                <div class="text-left p-4" ></div>                                      
+                © 2020 Jeff Jadulco. All Rights Reserved.
+                
+                <nav class="navbar navbar-inverse" class="text-right p-4" role="navigation">
+                    home Blog Project About
+                  </nav>
+                    
+        </div>
+            </footer>
+    <!--script-->
+    <script src="/js/app.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
